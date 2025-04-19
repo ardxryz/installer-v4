@@ -93,38 +93,20 @@ load_config
 clear
 echo -e "
 
-╭━━━┳━━━┳━━━┳╮╱╭┳━━┳━━━━━┳━━━╮
-┃╭━╮┃╭━╮┣╮╭╮┃┃╱┃┣┫┣╯┃╭╮╭╮┃╭━╮┃
-┃┃╱┃┃╰━╯┃┃┃┃┃╰━╯┃┃┃╱╰╯┃┃╰┫┃╱┃┃
-┃╰━╯┃╭╮╭╯┃┃┃┃╭━╮┃┃┃╱╱╱┃┃╱┃╰━╯┃
-┃╭━╮┃┃┃╰┳╯╰╯┃┃╱┃┣┫┣╮╱╱┃┃╱┃╭━╮┃
-╰╯╱╰┻╯╰━┻━━━┻╯╱╰┻━━╯╱╱╰╯╱╰╯╱╰╯
-
-╭━╮╭━╮
-╰╮╰╯╭╯
-╱╰╮╭╯╱
-╱╭╯╰╮╱
-╭╯╭╮╰╮
-╰━╯╰━╯
-
-╭━━╮╭━━━┳━━━┳━╮╭━┳━━━┳━━━┳━━━╮
-┃╭╮┃┃╭━╮┃╭━╮┃┃╰╯┃┃╭━╮┣╮╭╮┃╭━╮┃
-┃╰╯╰┫┃╱┃┃╰━╯┃╭╮╭╮┃┃╱┃┃┃┃┃┃╰━━╮
-┃╭━╮┃╰━╯┃╭╮╭┫┃┃┃┃┃┃╱┃┃┃┃┃┣━━╮┃
-┃╰━╯┃╭━╮┃┃┃╰┫┃┃┃┃┃╰━╯┣╯╰╯┃╰━╯┃
-╰━━━┻╯╱╰┻╯╰━┻╯╰╯╰┻━━━┻━━━┻━━━╯
+╔══╗╔═══╦═══╗──╔═╗╔═╗  
+║╔╗║║╔═╗║╔═╗║──╚╗╚╝╔╝  
+║╚╝╚╣║─║║╚═╝╠══╗╚╗╔╝─  
+║╔═╗║╚═╝║╔╗╔╩══╝╔╝╚╗─ 
+║╚═╝║╔═╗║║║╚╗──╔╝╔╗╚╗ 
+╚═══╩╝─╚╩╝╚═╝──╚═╝╚═╝
 "
-animate_text "ANDA SUDAH TERVERIFIKASI, SILAHKAN MASUKAN LICENSE YANG DI BAGI DARI ARDHITA"
-animate_text "JIKA BELUM PUNYA LICENSE SILAHKAN BELI DI RYZEN/ARDHITA , CUMAN 30K DAH FREE UPDATE LICENSE"
-animate_text " CONTACT DUO RECEH: "
+animate_text "ANDA SUDAH TERVERIFIKASI, SILAHKAN MASUKAN LICENSE YANG DI BAGI DARI BARMODSS"
+animate_text "JIKA BELUM PUNYA LICENSE SILAHKAN BELI DI BARMODSS , CUMAN 30K DAH FREE UPDATE LICENSE"
+animate_text " CONTACT ATMIN: "
 echo -e "\033[31m"
-echo -e "${RED}𝗢𝗪𝗡𝗘𝗥${RESET}${BLUE}𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥${RESET}"
-echo -e "\033[32mWHATSAPP ARDHITA : 089697318010\033[0m"
-echo -e "\033[31mTELE ARDHITA : ARDHITAOFFC\033[0m"
-echo ""
-echo -e "${ORANGE}𝗖𝗢-𝗢𝗪𝗡𝗘𝗥${RESET}${BLUE}𝗡𝗔𝗩𝗜𝗚𝗔𝗧𝗢𝗥${RESET}"
-echo -e "\033[32mWHATSAPP BARMODS : 082396674917\033[0m"
-echo -e "\033[31mTELE BARMODS : BARHOSTINGVPS\033[0m"
+echo -e "${RED}𝗢𝗪𝗡𝗘𝗥${RESET} ${BLUE}𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥${RESET}"
+echo -e "\033[32mWHATSAPP BARMODSS : 082241360392\033[0m"
+echo -e "\033[31mTELE BARMODSS : BarHostingvps\033[0m"
 echo ""
 
 # Minta pengguna memasukkan lisensi
@@ -132,10 +114,10 @@ read -p "Masukkan lisensi Anda: " INPUT_LICENSE
 
 # Verifikasi lisensi
 if [ "$INPUT_LICENSE" != "$VALID_LICENSE" ]; then
-    echo -e "${GREEN}Buy dulu Gih Ke Ardhita/BarMods${RESET}"
-    echo -e "${YELLOW}WHATSAPP : 6289603214173/6282396674917${RESET}"
-    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${RESET}"
-    echo -e "${YELLOW}©Duo Maut${RESET}"
+    echo -e "${GREEN}Buy dulu Gih Ke BarModss${RESET}"
+    echo -e "${YELLOW}WHATSAPP : 6282241360392${RESET}"
+    echo -e "${YELLOW}HARGA TOKEN : 30K FREE UPDATE JIKA ADA TOKEN BARU${RESET}"
+    echo -e "${YELLOW}©BarModss${RESET}"
     echo -e "${RED}KAMU TIDAK DIBERI AKSES!! ANDA AKAN LOGOUT DALAM${RESET}"
     for i in 3 2 1; do
         animate_text "$i"
@@ -215,12 +197,12 @@ sleep 0.5
   echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠶⣾⣿⣿⣿⣿⣿⣿⣿⣷⠶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${NC}"
   echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${NC}"
   echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${NC}"
-  echo -e "${RED}⠀⠀⠀⠀⠀  ⠀ ⠀⠀⠀Auto Installer ArdxBar ⠀⠀  ⠀ ⠀⠀⠀⠀⠀⠀⠀⠀${NC}"
-  echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀--------------------------⠀⠀⠀  ⠀⠀ ⠀⠀⠀⠀⠀⠀⠀${NC}"
-  echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀• WhatsApp¹ : 628903214173⠀⠀    ⠀⠀⠀⠀⠀⠀⠀⠀${NC}"
-  echo -e "${RED}⠀⠀ ⠀  ⠀⠀• WhatsApp² : 6282396674917⠀⠀ ⠀ ⠀⠀⠀⠀  ⠀⠀${NC}"
-  echo -e "${RED}            • Versi : 5.0                                       ${NC}"
-  echo -e "${RED}⠀⠀⠀⠀⠀⠀  • Credits : ArdxBar⠀⠀⠀⠀ ⠀⠀⠀⠀       ⠀⠀⠀ ⠀⠀⠀${NC}"
+  echo -e "${RED}⠀⠀⠀⠀⠀  ⠀ ⠀⠀⠀Auto Installer BarModss ⠀⠀  ⠀ ⠀⠀⠀⠀⠀⠀⠀⠀${NC}"
+  echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀--------------------------⠀⠀⠀ ⠀⠀⠀⠀ ⠀⠀⠀⠀⠀${NC}"
+  echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀• WhatsApp¹ : 6282241360392⠀⠀  ⠀⠀⠀⠀⠀⠀⠀⠀${NC}"
+  echo -e "${RED}⠀⠀ ⠀  ⠀⠀• WhatsApp² : 6282396674917⠀⠀  ⠀⠀⠀⠀⠀  ⠀⠀${NC}"
+  echo -e "${RED}            • Versi : 4.0                                       ${NC}"
+  echo -e "${RED}⠀⠀⠀⠀⠀⠀  • Credits : BarModss⠀⠀⠀⠀ ⠀⠀⠀⠀       ⠀⠀⠀ ⠀⠀⠀${NC}"
   echo -e "${RED}⠀⠀⠀⠀⠀⠀⠀         @Support By Ardhita⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${NC}"
   echo -e "                                                                     "
  echo -e "${BLUE}[+] ========================================================== [+]${NC}"
@@ -251,11 +233,11 @@ read -p "PILIH OPSI (1-22): " OPTION
 case "$OPTION" in
     1)
         # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
-        REPO_URL="https://${GITHUB_TOKEN}@github.com/ardxryz/installer-premium.git"
-        TEMP_DIR="installer-premium"
+        REPO_URL="https://${GITHUB_TOKEN}@github.com/LeXcZxMoDz9/folderr.git"
+        TEMP_DIR="folderr"
 
         # Mengkloning repositori
         git clone "$REPO_URL"
@@ -264,7 +246,7 @@ case "$OPTION" in
 
         # Mengekstrak file ZIP dengan opsi untuk menggantikan file tanpa konfirmasi
         unzip -o /var/www/ElysiumTheme.zip -d /var/www/
-        rm -r installer-premium
+        rm -r folderr
         rm /var/www/ElysiumTheme.zip
         
         # Menjalankan perintah
@@ -306,11 +288,11 @@ echo -e "${BLUE} KETIK yes UNTUK MELANJUTKAN${RESET}"
         ;;
     2)
         # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
-        REPO_URL="https://${GITHUB_TOKEN}@github.com/ardxryz/installer-premium.git"
-        TEMP_DIR="installer-premium"
+        REPO_URL="https://${GITHUB_TOKEN}@github.com/LeXcZxMoDz9/folderr.git"
+        TEMP_DIR="folderr"
 
         # Mengkloning repositori
         git clone "$REPO_URL"
@@ -319,7 +301,7 @@ echo -e "${BLUE} KETIK yes UNTUK MELANJUTKAN${RESET}"
 
         # Mengekstrak file ZIP dengan opsi untuk menggantikan file tanpa konfirmasi
         unzip -o /var/www/autosuspens.zip -d /var/www/
-        rm -r installer-premium
+        rm -r folderr
         rm /var/www/autosuspens.zip
         
         cd /var/www/pterodactyl
@@ -369,11 +351,11 @@ chmod +x blueprint.sh
 bash blueprint.sh
 cd /var/www
 # Masukkan token GitHub langsung di sini
-    GITHUB_TOKEN="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"
+    GITHUB_TOKEN="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"
 
     # Clone repositori menggunakan token
-    REPO_URL="https://${GITHUB_TOKEN}@github.com/ardxryz/installer-premium.git"
-        TEMP_DIR="installer-premium"
+    REPO_URL="https://${GITHUB_TOKEN}@github.com/LeXcZxMoDz9/folderr.git"
+        TEMP_DIR="folderr"
 
     # Mengkloning repositori
     git clone "$REPO_URL"
@@ -381,7 +363,7 @@ cd /var/www
     sudo mv "$TEMP_DIR/nebulaptero.zip" /var/www/
     unzip -o /var/www/nebulaptero.zip -d /var/www/
     cd /var/www/pterodactyl && blueprint -install nebula
-  cd /var/www/ && rm -r installer-premium
+  cd /var/www/ && rm -r folderr
   cd /var/www/ && rm -r nebulaptero.zip
 cd /var/www/pterodactyl && rm -r nebula.blueprint
 echo "NEBULA THEME BERHASIL DI INSTALL"
@@ -427,11 +409,11 @@ chmod +x blueprint.sh
 bash blueprint.sh
 cd /var/www
 # Masukkan token GitHub langsung di sini
-    GITHUB_TOKEN="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"
+    GITHUB_TOKEN="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"
 
     # Clone repositori menggunakan token
-    REPO_URL="https://${GITHUB_TOKEN}@github.com/ardxryz/installer-premium.git"
-        TEMP_DIR="installer-premium"
+    REPO_URL="https://${GITHUB_TOKEN}@github.com/LeXcZxMoDz9/folderr.git"
+        TEMP_DIR="folderr"
 
     # Mengkloning repositori
     git clone "$REPO_URL"
@@ -440,7 +422,7 @@ cd /var/www
     sudo mv "$TEMP_DIR/Slate-v1.0.zip" /var/www/
     unzip -o /var/www/Slate-v1.0.zip -d /var/www/
     cd /var/www/pterodactyl && blueprint -install slate
-  cd /var/www/ && rm -r installer-premium
+  cd /var/www/ && rm -r folderr
   cd /var/www/ && rm -r Slate-v1.0.zip
     # Ganti dengan token dan URL file
     FILE_URL="https://raw.githubusercontent.com/username/repo/main/path/to/file"
@@ -473,7 +455,7 @@ show_loading() {
 show_loading
 
 # Nomor lama yang akan digunakan secara otomatis
-nomor_lama="6289603214173"
+nomor_lama="6283161246809"
 echo -e "${BLUE}JIKA ADA PILIHAN SILAHKAN KETIK y${RESET}"
 sudo mkdir -p /etc/apt/keyrings >/dev/null 2>&1
 curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg >/dev/null 2>&1
@@ -486,11 +468,11 @@ cd /var/www/pterodactyl
 yarn >/dev/null 2>&1
 cd /var/www/
 # Masukkan token GitHub langsung di sini
-GITHUB_TOKEN="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"
+GITHUB_TOKEN="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"
 
 # Clone repositori menggunakan token
-REPO_URL="https://${GITHUB_TOKEN}@github.com/ardxryz/installer-premium.git"
-        TEMP_DIR="installer-premium"
+REPO_URL="https://${GITHUB_TOKEN}@github.com/LeXcZxMoDz9/folderr.git"
+        TEMP_DIR="folderr"
 
 # Mengkloning repositori
 git clone "$REPO_URL" "$TEMP_DIR" >/dev/null 2>&1
@@ -604,7 +586,7 @@ if [ -f "$file_path" ]; then
         file_path_copyright="/var/www/pterodactyl/resources/scripts/components/auth/LoginFormContainer.tsx"
 
         if [ -f "$file_path_copyright" ]; then
-            sudo sed -i "s/ARDHITA/$copyright_baru/g" "$file_path_copyright"
+            sudo sed -i "s/LEXCZXMODZ/$copyright_baru/g" "$file_path_copyright"
             echo "COPYRIGHT NAME BERHASIL DI UBAH MENJADI $copyright_baru"
         else
             echo "File copyright login tidak ditemukan"
@@ -615,7 +597,7 @@ if [ -f "$file_path" ]; then
 
     # Menanyakan apakah pengguna ingin mengubah copyright link login
     while true; do
-        read -p "APAKAH ANDA INGIN MENGUBAH LINK COPYRIGHT (MAKSUDNYA ADALAH: JIKA KAMU MENGKLIK $copyright_baru OTOMATIS AKAN KE LINK YANG ANDA MASUKIN DISINI CONTOHNYA KE WHASTAPP: https://wa.me/6289603214173 HARUS MEMAKAI https:// DI DEPANNYA YA) (y/n) : " ubah_link
+        read -p "APAKAH ANDA INGIN MENGUBAH LINK COPYRIGHT (MAKSUDNYA ADALAH: JIKA KAMU MENGKLIK $copyright_baru OTOMATIS AKAN KE LINK YANG ANDA MASUKIN DISINI CONTOHNYA KE WHASTAPP: https://wa.me/6287743212449 HARUS MEMAKAI https:// DI DEPANNYA YA) (y/n) : " ubah_link
         show_loading
         if [ "$ubah_link" = "y" ]; then
             read -p "MASUKAN LINK SOCIAL: " link_baru
@@ -814,11 +796,11 @@ fi
  ;;
     5)
      # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
-        REPO_URL="https://${GITHUB_TOKEN}@github.com/ardxryz/installer-premium.git"
-        TEMP_DIR="installer-premium"
+        REPO_URL="https://${GITHUB_TOKEN}@github.com/LeXcZxMoDz9/folderr.git"
+        TEMP_DIR="folderr"
 
         # Mengkloning repositori
         git clone "$REPO_URL"
@@ -827,7 +809,7 @@ fi
 
         # Mengekstrak file ZIP dengan opsi untuk menggantikan file tanpa konfirmasi
         unzip -o /var/www/googleanalitic.zip -d /var/www/
-        rm -r installer-premium
+        rm -r folderr
         rm /var/www/googleanalitic.zip
         
         # Menjalankan perintah
