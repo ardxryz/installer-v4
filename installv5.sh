@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Tentukan lisensi yang valid
-VALID_LICENSE="Barkece"
+VALID_LICENSE="ArdBar"
 
 # Path file lisensi dan file kesalahan
 LICENSE_FILE="/var/www/pterodactyl/license.txt"
